@@ -103,7 +103,7 @@ img { width: 100%; height: 50%; padding: 20px; }
 /******************************************/
 .gallery { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; }
 
-.galleryMedia { justify-content: center; align-items: center; text-align: justify; width: 20%; margin: 15px; font-size: 0.8em; }
+.galleryMedia { justify-content: center; align-items: center; text-align: justify; width: 20%; margin: 0px; font-size: 0.8em; }
 
 .galleryText { justify-content: center; align-items: center; text-align: justify; width: 70%; margin: 15px; font-size: 1em; }
 
@@ -116,11 +116,13 @@ video + figcaption, img + figcaption { font-size: 80%; font-style: italic; text-
 .lettre { color: #000000; }
 
 /*Gestion des articles flex*/
-.flex { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; }
+.flex { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; /*    margin: 0px; padding: 0px;*/ }
 
 .flex p { max-width: 60%; /*padding-right: 20px;*/ }
 
-.flex img { max-width: 40%; padding-right: 20px; padding-left: 20px; }
+.flex a img { max-width: 100%; padding: 10px; }
+
+.flex a { max-width: 50%; padding-right: 0px; padding-left: 0px; /*margin: 0px;*/ }
 
 /**********************/
 /* Commandes terminal */
