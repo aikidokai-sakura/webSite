@@ -122,6 +122,11 @@ video + figcaption, img + figcaption { font-size: 80%; font-style: italic; text-
 
 .flex img { max-width: 40%; padding-right: 20px; padding-left: 20px; }
 
+/*Photos de la galerie*/
+.galeriePhotos { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; }
+
+.galeriePhotos img { max-width: 40%; padding-right: 20px; padding-left: 20px; }
+
 /**********************/
 /* Commandes terminal */
 /**********************/
